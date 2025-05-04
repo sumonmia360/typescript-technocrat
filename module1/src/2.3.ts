@@ -14,19 +14,19 @@
   const isMarred1: GenericsAry = [true, false, true];
 
   // Object of generics
-  const Saif: GenericsAry1<{ name: string; age: number; contact: number }> = [
+  const Saif: GenericsAry1<{ name: "sumon"; age: number; contact: number }> = [
     {
-      name: "saif",
+      name: "sumon",
       age: 5,
       contact: 12345,
     },
     {
-      name: "emon",
+      name: "sumon",
       age: 10,
       contact: 12345,
     },
     {
-      name: "emon",
+      name: "sumon",
       age: 10,
       contact: 12345,
     },
