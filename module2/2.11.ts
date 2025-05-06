@@ -31,11 +31,7 @@
     b: string;
   };
   type RecordType = Record<string, string>;
-  const emtyObj: Record<string, unknown> = {
-    sumon: "sm",
-    mia: 54,
-    car: true,
-  };
+
   const recordList: RecordType = {
     a: "sumon",
     b: "mia",
@@ -43,6 +39,10 @@
     d: "sumonmia",
     emon: "miaemon",
   };
-
+  const emtyObj: Record<string, unknown> = {
+    sumon: "sm",
+    mia: 54,
+    car: true,
+  };
   ///
 }
