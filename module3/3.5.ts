@@ -11,7 +11,12 @@
     public addDeposite(amount: number) {
       return (this._balance = this._balance + amount);
     }
-
+    get balanceCheck1() {
+      return this._balance;
+    }
+    set deposit(amount: number) {
+      this._balance = this._balance + amount;
+    }
     public balanceCheck() {
       return this._balance;
     }
