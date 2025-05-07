@@ -4,6 +4,7 @@
   class BackAount {
     constructor(
       readonly id: number,
+
       name: string,
       protected _balance: number
     ) {}
@@ -24,7 +25,7 @@
 
   const sumonMia = new BackAount(232, "Muhammad Sumon", 500);
   sumonMia.deposit = 454;
-  console.log(sumonMia.balance);
+  // console.log(sumonMia.balance);
 
   //
 }
